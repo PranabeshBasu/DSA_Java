@@ -18,6 +18,10 @@ class Car extends Vehicle{
     public Car(String NumberOfCar){
         super(NumberOfCar);
     }
+    @Override
+    public void honk(){
+        System.out.println("Give me way"); //polymorphism
+    }
 }
 class Bus extends Vehicle{
 
