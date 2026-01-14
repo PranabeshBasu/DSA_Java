@@ -12,7 +12,7 @@ public class SecondHighestOccurHashing {
         for (int j = 0; j < n; j++) {
             hash[arr[j]]++;
         }
-        for(int k = 0; k < max; k++) {
+        for(int k = 0; k <= max; k++) {
             if (hash[k] > h_f) {
                 sh_f = h_f;
                 sh_el = h_el;
