@@ -1,6 +1,6 @@
 import java.util.Arrays;
+public class LargestCommonPrefix {
 
-public class LargestCommonPrefix{
     public String returnLcp(String str[]) {
         StringBuilder s = new StringBuilder();
         Arrays.sort(str);
