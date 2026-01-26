@@ -7,6 +7,7 @@ This repository documents my step-by-step journey of mastering **Java and Data S
 - **BasicMaths** – Strengthening problem-solving using mathematical concepts
 - **BasicArrays** – Understanding arrays, traversals, and common patterns  
 - **OOPBasics** – Learning object-oriented programming principles in Java  
-- **Collections** – Exploring Java Collections Framework for efficient data handling  
+- **Collections** – Exploring Java Collections Framework for efficient data handling
+-  **BasicStrings** – Understanding Strings and common patterns  
 
 Each folder represents a milestone in my learning process, reflecting consistent practice and conceptual growth as I prepare for placements and real-world development.
