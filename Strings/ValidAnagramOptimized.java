@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class ValidAnagramOptimized{
-    public boolean check (String s, String t){
-        if (s.length() != t.length()) return false;
+public class ValidAnagramOptimized {
+    public boolean result(String s, String t) {
+    if (s.length() != t.length()) return false;
         int[] count = new int[26];
         for (char c : s.toCharArray()) count[c - 'a']++;
         for (char c : t.toCharArray()) count[c - 'a']--;
@@ -18,8 +18,9 @@ public class ValidAnagramOptimized{
         System.out.println("Enter the string for comparison: ");
         String str2 = sc.nextLine();
         ValidAnagramOptimized anagram = new ValidAnagramOptimized();
-        boolean check = anagram.check(str1, str2);
+        boolean check = anagram.result(str1, str2);
         if (check) System.out.println("The 2nd string is a VALID ANAGRAM of the 1st one");
         else System.out.println("Not a VALID ANAGRAM");
     }
+    
 }
