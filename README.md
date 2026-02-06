@@ -9,5 +9,5 @@ This repository documents my step-by-step journey of mastering **Java and Data S
 - **OOPBasics** – Learning object-oriented programming principles in Java  
 - **Collections** – Exploring Java Collections Framework for efficient data handling
 -  **BasicStrings** – Understanding Strings, traversals and common patterns  
-
+- **BasicHashing** - Understanding the concepts of Hashing Techniques 
 Each folder represents a milestone in my learning process, reflecting consistent practice and conceptual growth as I prepare for placements and real-world development.
