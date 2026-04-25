@@ -15,7 +15,6 @@ public class MissingNumberinArray {
         
         MissingNumberinArray solution = new MissingNumberinArray();
         
-        
         int ans = solution.missingno(nums);
         
         System.out.println("The missing number is: " + ans);
